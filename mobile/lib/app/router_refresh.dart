@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../data/models/models.dart';
 import '../features/auth/application/auth_provider.dart';
 
 class RouterRefreshNotifier extends ChangeNotifier {
